@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/cabecera/cabecera.css">
+    <link rel="stylesheet" href="CSS/cabecera/cabecera-menu-item.css">
+    <link rel="stylesheet" href="CSS/cabecera/cabecera-menu-lista.css">
+    <link rel="stylesheet" href="CSS/cabecera/cabecera-menu-boton.css">
+    <link rel="stylesheet" href="CSS/home/home.css">
+    <link rel="stylesheet" href="CSS/home/home-social.css">
+    <link rel="stylesheet" href="CSS/home/home-imagen.css">
+    <link rel="stylesheet" href="CSS/home/home-general.css">
+    <link rel="stylesheet" href="CSS/about-me/about-me-description.css">
+    <link rel="stylesheet" href="CSS/about-me/about-me-tittle.css">
+    <link rel="stylesheet" href="CSS/about-me/about-me.css">
+    <link rel="stylesheet" href="CSS/skills/skills.css">
+    <link rel="stylesheet" href="CSS/skills/skills-item.css">
+    <link rel="stylesheet" href="CSS/skills/skills-lista.css">
+    <link rel="stylesheet" href="CSS/skills/skills-tittle.css">
+    <link rel="stylesheet" href="CSS/hobbies/hobbies.css">
+    <link rel="stylesheet" href="CSS/hobbies/hobbies-item.css">
+    <link rel="stylesheet" href="CSS/hobbies/hobbies-lista.css">
+    <link rel="stylesheet" href="CSS/hobbies/hobbies-tittle.css">
+    <link rel="stylesheet" href="CSS/trainning/trainning-item.css">
+    <link rel="stylesheet" href="CSS/trainning/trainning-list.css">
+    <link rel="stylesheet" href="CSS/trainning/trainning-tittle.css">
+    <link rel="stylesheet" href="CSS/trainning/trainning.css">
+    <link rel="stylesheet" href="CSS/projects/projects-item.css">
+    <link rel="stylesheet" href="CSS/projects/projects-list.css">
+    <link rel="stylesheet" href="CSS/projects/projects-tittle.css">
+    <link rel="stylesheet" href="CSS/projects/projects.css">
+    <link rel="stylesheet" href="CSS/contact/contact.css">
+    <link rel="stylesheet" href="CSS/contact/contact-item.css">
+    <link rel="stylesheet" href="CSS/contact/contact-list.css">
+    <link rel="stylesheet" href="CSS/contact/contact-tittle.css">
+    <link rel="stylesheet" href="CSS/contact/contact-image.css">
+    <link rel="stylesheet" href="CSS/footer/footer-descripcion.css">
+    <link rel="stylesheet" href="CSS/footer/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="cabecera" >
+        <img class="logo" src="imagenes/logo blanco.png" alt="logo">
+        <h1 class="nombre">SERGIO IVAN CASTILLO CARRILLO</h1>
+        <button id="abrir" class="menu__button-abrir color"><i class="bi bi-list"></i></button>
+        <nav class="menu" id="menu">
+            <button id="cerrar" class="menu__button-cerrar color"><i class="bi bi-x"></i></button>
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__item" id="item1" href="#home">HOME</a></li>
+                <li class="menu__item"><a class="menu__item" id="item2" href="#aboutMe">ABOUT ME</a></li>
+                <li class="menu__item"><a class="menu__item" id="item3" href="#skills">SKILLS </a></li>
+                <li class="menu__item"><a class="menu__item" id="item4" href="#hobbies">HOBBIES </a></li>
+                <li class="menu__item"><a class="menu__item" id="item5" href="#trainning">TRAINNING </a></li>
+                <li class="menu__item"><a class="menu__item" id="item6" href="#projects">PROJECTS </a></li>
+                <li class="menu__item"><a class="menu__item" id="item7" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav> 
+    </header>
+    
+    <main>
+        <hr>
+
+        <Section id="home" class="home">
+            <ul class="home__social">
+                <a class="home__social--icon" href="https://www.linkedin.com/in/sergio-castillo-programador/"><img class="home__social--icon" src="/imagenes/Logo linkedn.png" alt="Linkedin"></a>
+                <a class="home__social--icon" href="https://github.com/Sergio2709"><img class="home__social--icon" src="/imagenes/Logo git.png" alt="GitHub"></a>
+                <a class="home__social--icon" href="Documentos/CV - Sergio Castillo 2023 - R.pdf"><img class="home__social--icon" src="/imagenes/Logo documento.png" alt="Curriculum"></a>                
+            </ul>
+            <div class="home__general">
+                <p class="home__general--description">I’m front end developer, I have knowledge in Java, 
+                Python, JavaScript, React.js, HTML, CSS, Git and GitHub, 
+                Database SQL and No SQL, I develop pages with different 
+                requirements in accordance with the customer. I include 
+                different technologies to do small, medium or big web pages.
+                 and actually i’m a Oracle ONE project participant at Alura Latam.</p>
+            </div>
+            <img class="home__foto" src="imagenes/Foto de perfil.jpg" alt="Sergio Castillo">            
+        </Section>
+        
+        <section id="aboutMe" class="aboutMe">
+            <h1 class="aboutMe__tittle">ABOUT ME</h1>
+            <div class="aboutMe__description">
+                <p class="aboutMe__description--text">I started to programming since 2 years ago, 
+                    I started with python and Java, and I knew the web pages world that 
+                    for me was fascinating because I could express my ideas to other 
+                    people, so I studied Javascript, CSS and HTML, and also i knew 
+                    about the frameworks and I decided to specialize in React.js 
+                    because I can do different web pages with infinite possibilities.
+                    In this moment I work in a little company while I’m a Freelancer in web developer.</p>
+                <div class="aboutMe__description--imagen"></div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h1 class="skills__tittle">SKILLS</h1>
+            <ul class="skills__lista">
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/HTML.png" alt="HTML5">
+                    <p class="skills__item--texto">HTML 5</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/Java.png" alt="Java">
+                    <p class="skills__item--texto">Java</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/Javascript.png" alt="JavaScript">
+                    <p class="skills__item--texto">JavaScript</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/Python.png" alt="Python">
+                    <p class="skills__item--texto">Python</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/CSS.png" alt="CSS">
+                    <p class="skills__item--texto">CSS</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/React.png" alt="React">
+                    <p class="skills__item--texto">React.js</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/Git.png" alt="Git">
+                    <p class="skills__item--texto">Git and GitHub</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item--imagen" src="imagenes/Database.png" alt="Database">
+                    <p class="skills__item--texto">Databases</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h1 class="hobbies__tittle">HOBBIES</h1>
+            <ul class="hobbies__lista">
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/ListenMusic.png" alt="Music">
+                    <p class="hobbies__item--texto">Listen Music</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/WatchTV (2).png" alt="WatchTV">
+                    <p class="hobbies__item--texto">Watch series</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/Cook.png" alt="Cook">
+                    <p class="hobbies__item--texto">Cook</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/Soccer.png" alt="Play Soccer">
+                    <p class="hobbies__item--texto">Play soccer</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/WatchTV.png" alt="Watch soccer">
+                    <p class="hobbies__item--texto">Watch soccer</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/Swim.png" alt="Swim">
+                    <p class="hobbies__item--texto">Swim</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/Videogames.png" alt="Play Videogames">
+                    <p class="hobbies__item--texto">Play videogames</p>
+                </li>
+                <li class="hobbies__item">
+                    <img class="hobbies__item--imagen" src="imagenes/DoExercise.png" alt="Do exercise">
+                    <p class="hobbies__item--texto">Do exercise</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="trainning" class="trainning">
+            <h1 class="trainning__tittle">TRAINNING</h1>
+            <ul class="trainning__list">
+                <li class="trainning__item">
+                    <div class="trainning__item--image"><img class="trainning__item--image" src="imagenes/Alura.png" alt="Alura latam"></div>
+                    <h3 class="trainning__item--tittle">React.js specialization</h3>
+                    <p class="trainning__item--text">2023 - Alura Latam</p>
+                </li>
+                <li class="trainning__item">
+                    <div class="trainning__item--image"><img class="trainning__item--image" src="imagenes/Alura.png" alt="Alura latam"></div>
+                    <h3 class="trainning__item--tittle">CSS, HTML and JavaScript specialization</h3>
+                    <p class="trainning__item--text">2023 - Alura Latam</p>
+                </li>
+                <li class="trainning__item">
+                    <div class="trainning__item--image"><img class="trainning__item--image" src="imagenes/Unal.png" alt="UNAL"></div>
+                    <h3 class="trainning__item--tittle">Web app developer</h3>
+                    <p class="trainning__item--text">2022 - UNAL</p>
+                </li>
+                <li class="trainning__item">
+                    <div class="trainning__item--image"><img class="trainning__item--image" src="imagenes/NextU.png" alt="Next U"></div>
+                    <h3 class="trainning__item--tittle">SEO and SEM</h3>
+                    <p class="trainning__item--text">2021 - Next U</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="projects__tittle">PROJECTS</h2>
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <img class="projects__item--site" src="imagenes/Encriptador.png" alt="Encriptador">
+                    <div class="projects__item--description">
+                        <h5 class="projects__item--description-tittle">Encriptador de codigo</h5>
+                        <p class="projects__item--description-text">Challenge Oracle</p>
+                        <button class="projects__item--description-button"><a class="projects__item--description-button" href="https://github.com/Sergio2709/Encriptador">Repository</a> </button>
+                        <button class="projects__item--description-button"><a class="projects__item--description-button" href="https://sergio2709.github.io/Encriptador/">See demo</a></button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact__tittle">CONTACT</h2>
+            <div class="contact__list">
+                <div class="contact__image">
+                    <img class="contact__image" src="imagenes/contact.jpg" alt="contact">
+                </div>
+                    <div class="contact__item">
+                    <p class="contact__item--text1">¿Do you wanna contact me?</p>
+                    <p class="contact__item--text2">Complete the form and I will communicate you as soon as possible.</p>
+                    <div class="contact__item--object">
+                        <label class="contact__item-label">name</label>
+                        <input class="contact__item-input" type="text">
+                    </div>
+                    <div class="contact__item--object">
+                        <label class="contact__item-label">email</label>
+                        <input class="contact__item-input" type="email">
+                    </div>
+                    <div class="contact__item--object">
+                        <label class="contact__item-label">subject</label>
+                        <input class="contact__item-input" type="text">
+                    </div>
+                    <div class="contact__item--object">
+                        <label class="contact__item-label">message</label>
+                        <textarea class="contact__item-input" type="text"></Textarea>
+                    </div>
+                    <button class="contact__item--button">send message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__texto">
+            <h3 class="footer__texto--quien">Desarrollado por Sergio Castillo </h3>
+            <h3 class="footer__texto--cuando">2023</h3>
+        </div>
+        <img class="footer__logo" src="imagenes/logo negro.png" alt="Logo">
+        
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

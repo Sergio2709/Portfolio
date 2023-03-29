@@ -1,0 +1,25 @@
+.home__general{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 45%;
+}
+
+.home__general--description{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:770px) {
+    .home__general{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width:440px) {
+    .home__general{
+        width: 100%;
+    }   
+}

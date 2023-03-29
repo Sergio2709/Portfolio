@@ -1,0 +1,24 @@
+.menu__button-abrir,
+.menu__button-cerrar{
+    display: none; 
+}
+
+@media screen and (max-width:778px) {
+    .menu__button-abrir{
+        display: block; 
+        border: 0;
+        background-color: transparent;
+        font-size: 3rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu__button-cerrar{
+        display: block; 
+        border: 0;
+        background-color: transparent;
+        font-size: 3rem;
+        cursor: pointer;
+        color: black;
+    }
+}

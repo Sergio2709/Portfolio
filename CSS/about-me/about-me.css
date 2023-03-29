@@ -1,0 +1,20 @@
+.aboutMe{
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:770px) {
+    .aboutMe{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .aboutMe{
+        padding: 0.5rem;
+    }
+    
+}

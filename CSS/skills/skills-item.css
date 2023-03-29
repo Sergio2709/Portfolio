@@ -1,0 +1,31 @@
+.skills__item{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 11rem;
+    height: 11rem;
+    justify-content: flex-end;
+}
+
+.skills__item--imagen{
+    height: 2rem;
+    margin: 1rem;
+}
+
+.skills__item--texto{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:770px) {
+    .skills__item{
+        padding: 0;
+        margin: 0.5rem;
+    }   
+}
+
+@media screen and (max-width:440px) {
+    .skills__item{
+        width: 25rem;
+        height: 12%;
+    }
+}

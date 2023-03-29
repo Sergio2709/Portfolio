@@ -1,0 +1,43 @@
+.trainning__item{
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 43%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trainning__item--image{
+    width: 95%;
+    padding: 2.5%;
+}
+
+.trainning__item--tittle{
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.trainning__item--text{
+    padding: 0.5rem;
+}
+
+@media screen and (max-width:770px) {
+    .trainning__item{
+        padding: 0.2rem;
+    }   
+}
+
+@media screen and (max-width:440px) {
+    .trainning__item{
+        padding: 0.1rem;
+        width: 95%;
+        align-items: center;
+    }   
+
+    .trainning__item--image{
+        width: 80%;
+        padding: 1rem;
+    }
+}

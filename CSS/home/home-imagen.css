@@ -1,0 +1,16 @@
+.home__foto{
+    width: 20%;
+    margin: 1rem;
+}
+
+@media screen and (max-width:770px) {
+    .home__foto{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .home__foto{
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.trainning__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:440px){
+    .trainning__list{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

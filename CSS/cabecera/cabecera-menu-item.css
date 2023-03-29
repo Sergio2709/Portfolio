@@ -1,0 +1,24 @@
+.menu__item{
+    padding: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.menu__item:hover{
+    font-weight: 500;
+    color: black;
+    transform: scale(1.05) ;
+}
+
+@media screen and (max-width:778px) {
+
+    .menu__item{
+        color: black;
+    }
+
+    .menu__item:hover{
+        color: gray;
+        transform: scale(1.05);
+    }
+}

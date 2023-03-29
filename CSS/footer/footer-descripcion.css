@@ -1,0 +1,9 @@
+.footer__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__texto--quien{
+    padding: 0.5rem;
+}

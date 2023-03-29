@@ -1,0 +1,12 @@
+.skills{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:770px) {
+    .skills{
+        padding: 0.5rem;
+    }
+}

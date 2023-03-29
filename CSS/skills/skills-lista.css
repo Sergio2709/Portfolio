@@ -1,0 +1,13 @@
+.skills__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:440px) {
+    .skills__lista{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+}

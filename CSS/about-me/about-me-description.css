@@ -1,0 +1,40 @@
+.aboutMe__description{
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe__description--text{
+    padding: 3rem;
+    font-size: 1.25rem;
+    width: 50%;
+}
+
+.aboutMe__description--imagen{
+    background: url("../../imagenes/JavascriptCode.jpg") no-repeat center / cover;
+    width: 30%;
+}
+
+@media screen and (max-width:770px) {
+    .aboutMe__description--imagen{
+        width: 40%;
+    }   
+    
+    .aboutMe__description--text{
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .aboutMe__description{
+        width: 100%;
+    }   
+
+    .aboutMe__description--imagen{
+        width: 100%;
+    }
+    .aboutMe__description--text{
+        width: 100%;
+    }
+}
