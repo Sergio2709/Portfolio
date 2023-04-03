@@ -42,6 +42,10 @@
     transform: scale(1.05);
 }
 
+.contact__item--button-show{
+    display: block;
+}
+
 .contact__item-label{
     font-weight: 100;
     color: rgb(160, 159, 159);
@@ -52,7 +56,21 @@
     background-color: transparent;
     border: none;
     resize: none;
+    box-sizing: border-box;
+}
 
+.contact__invalid-input input{
+    border: 1rem;
+    border-color: red;
+}
+
+.contact__item-message{
+    font-size: 0.5rem;
+    color: red;
+}
+
+.textarea{
+    height: 4rem;
 }
 
 @media screen and (max-width:770px) {
@@ -61,7 +79,6 @@
         margin: 0.2rem;
         
     }
-    
 }
 
 @media screen and (max-width:770px) {

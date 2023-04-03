@@ -6,8 +6,6 @@
     width: 100%;
 }
 
-
-
 @media screen and (max-width:778px){
     .menu{
         opacity: 0;

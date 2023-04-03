@@ -8,9 +8,8 @@
 }
 
 .home__social--icon{
-    width: 60%;
-    padding-top: 1.5rem ;
-    padding-bottom: 1.5rem;
+    width: 100%;
+    padding: 1.5rem;
 }
 
 @media screen and (max-width:440px) {
@@ -24,6 +23,6 @@
 
     .home__social--icon{
         padding: 0.2rem;
-        width: 40%;
+        width: 2rem;
     }
 }

@@ -68,17 +68,19 @@
 
         <Section id="home" class="home">
             <ul class="home__social">
-                <a class="home__social--icon" href="https://www.linkedin.com/in/sergio-castillo-programador/"><img class="home__social--icon" src="/imagenes/Logo linkedn.png" alt="Linkedin"></a>
-                <a class="home__social--icon" href="https://github.com/Sergio2709"><img class="home__social--icon" src="/imagenes/Logo git.png" alt="GitHub"></a>
-                <a class="home__social--icon" href="Documentos/CV - Sergio Castillo 2023 - R.pdf"><img class="home__social--icon" src="/imagenes/Logo documento.png" alt="Curriculum"></a>                
+                <a class="home__social--icon" href="https://www.linkedin.com/in/sergio-castillo-programador/"><i class="bi bi-linkedin home__social--icon"></i></a>
+                <a class="home__social--icon" href="https://github.com/Sergio2709"><i class="bi bi-github home__social--icon"></i></a>
+                <a class="home__social--icon" href="Documentos/CV - Sergio Castillo 2023 - R.pdf"><i class="bi bi-file-person home__social--icon"></i></a>                
             </ul>
             <div class="home__general">
-                <p class="home__general--description">I’m front end developer, I have knowledge in Java, 
+                <p class="home__general--description">I'm Sergio Castillo, 
+                I'm 22 years old, I'm Colombian, I live in Bogotá, I'm single,
+                I’m front end developer, I have knowledge in Java, 
                 Python, JavaScript, React.js, HTML, CSS, Git and GitHub, 
                 Database SQL and No SQL, I develop pages with different 
                 requirements in accordance with the customer. I include 
                 different technologies to do small, medium or big web pages.
-                 and actually i’m a Oracle ONE project participant at Alura Latam.</p>
+                and actually i’m a Oracle ONE project participant at Alura Latam.</p>
             </div>
             <img class="home__foto" src="imagenes/Foto de perfil.jpg" alt="Sergio Castillo">            
         </Section>
@@ -225,21 +227,25 @@
                     <p class="contact__item--text2">Complete the form and I will communicate you as soon as possible.</p>
                     <div class="contact__item--object">
                         <label class="contact__item-label">name</label>
-                        <input class="contact__item-input" type="text">
+                        <input class="contact__item-input" type="text" id="name" required pattern="[\s\S]{10,50}" data-type="name">
+                        <span class="contact__item-message"></span>
                     </div>
                     <div class="contact__item--object">
                         <label class="contact__item-label">email</label>
-                        <input class="contact__item-input" type="email">
+                        <input class="contact__item-input" type="email" id="email" required data-type="email">
+                        <span class="contact__item-message"></span>
                     </div>
                     <div class="contact__item--object">
                         <label class="contact__item-label">subject</label>
-                        <input class="contact__item-input" type="text">
+                        <input class="contact__item-input" type="text" id="subject" required pattern="[\s\S]{10,50}" data-type="subject">
+                        <span class="contact__item-message"></span>
                     </div>
                     <div class="contact__item--object">
                         <label class="contact__item-label">message</label>
-                        <textarea class="contact__item-input" type="text"></Textarea>
+                        <input class="contact__item-input textarea" type="text" id="message" required pattern="[\s\S]{50,300}" data-type="message">
+                        <span class="contact__item-message"></span>
                     </div>
-                    <button class="contact__item--button">send message</button>
+                    <button class="contact__item--button" id="button__send">send message</button>
                 </div>
             </div>
         </section>
@@ -254,7 +260,8 @@
         
     </footer>
 
-    <script type="module" src="script.js"></script>
+    <script type="module" src="Script/menu.js"></script>
+    <script type="module" src="Script/app.js"></script>
 
 </body>
 </html>

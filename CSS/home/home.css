@@ -11,16 +11,12 @@
         padding-left: 0;
         padding-right: 0;
         flex-direction: row;
-    }
-    
+    } 
 }
 
 @media screen and (max-width:440px) {
     .home{
         flex-direction: column;
         padding: 1rem;
-    }
-    
+    }  
 }
-
-
