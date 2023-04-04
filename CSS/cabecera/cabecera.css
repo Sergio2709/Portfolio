@@ -14,14 +14,9 @@
 .nombre{
     color: white;
     font-weight: 200;
-    font-size: 4rem;
-    width: 75%;
-    height: 3rem;
+    font-size: 200%;
 }
 
-.buscador:hover{
-    transform: scale(1.05) ;
-}
 
 @media screen and (max-width:770px) {
     .cabecera{
